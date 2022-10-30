@@ -1,56 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <title>Portfolio Website</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Portfolio website</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-  <!--hero Section start-->
+	<!----hero Section start---->
 
-  <div class="hero">
-    <nav>
-      <h2 class="logo">Portfo<span>lio</span></h2>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-      <a href="#" class="btn">Subscribe</a>
-    </nav>
+	<div class="hero">
+		<nav>
+			<h2 class="logo">Portfo<span>lio</span></h2>
+			<ul>
+				<li><a href="#">About me</a></li>
+				<li><a href="#">Skills</a></li>
+				<li><a href="#">Projects</a></li>
+			</ul>
+			<a href="#" class="btn">Hire me</a>
+		</nav>
 
-    <div class="content">
-      <h4>Hello, I am</h4>
-      <h1>Khaleed <span>Awodele</span></h1>
-      <h3>I'm a Web Developer.</h3>
-      <div class="newsletter">
-        <form>
-          <input type="email" name="email" id="mail" placeholder="Enter Your Email">
-        </form>
-    </div>
-  </div>
+		<div class="content">
+			<h4>Hello, my name is</h4>
+			<h1>Khaleed <span>Awodele</span></h1>
+			<h3>I am a Web Developer.</h3>
+			<div class="newslatter">
+			</div>
+		</div>
+	</div>
 
-
-  <!--About section start-->
-  <section class="about">
-    <div class="main">
-      <img src="portfolio/mypicture.jpg">
-      <div class="about-text">
-        <h2>About Me</h2>
-        <h5>Developer & Designer</h5>
-        <p>I am a front-end web developer. I am pro-active and efficient,I make beautiful webpages
-          that are fully interactive with all screen sizes.
+	<!----About section start---->
+	<section class="about">
+		<div class="main">
+			<img src="mypicture.jpg">
+			<div class="about-text">
+				<h2>About Me</h2>
+				<h5>Developer <span>& Designer</span></h5>
+				<p>I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.
+          Pro-active & Creative with ideas which brings an aesthethically pleasing website.
+          Tools i have worked/work with includes HTML,CSS,Javascript,Bootstrap5.
         </p>
-        <button type="button">Let's talk</button>
-      </div>
-    </div>
-  </section>
+				<button type="button">Hire me</button>
+			</div>
+		</div>
+	</section>
 
-    
+	<!-----service section start----------->
+	<div class="service">
+		<div class="title">
+			<h2>Our Services</h2>
+		</div>
+
+		<div class="box">
+			<div class="card">
+				<i class="fas fa-bars"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="far fa-user"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="far fa-bell"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!------Contact Me------>
+	<div class="contact-me">
+		<p>Let Me Get You A Beautiful Website.</p>
+		<a class="button-two" href="#">Hire Me</a>
+	</div>
+
+	<!------footer start--------->
+	<footer>
+		<p>Khaleed Awodele</p>
+	
+		<div class="social">
+			<a href="#"><i class="fab fa-facebook-f"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-dribbble"></i></a>
+		</div>
+		<p class="end">CopyRight</p>
+	</footer>
 </body>
 </html>
